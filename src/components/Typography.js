@@ -6,9 +6,11 @@ export default Typography = (props) => {
   return (
     <RNText
       style={{
-        color: props.color,
-        fontSize: props.fontSize
-      }}>
+        color: props.color ?? 'black',
+        fontSize: props.fontSize ?? 10
+      }}
+      numberOfLines={props.numberOfLines}
+    >
       {props.children}
     </RNText>
   )

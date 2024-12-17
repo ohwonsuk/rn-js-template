@@ -9,7 +9,7 @@ export default TabIcon = (props) => {
         <Icon
           name={props.iconName}
           size={20}
-          color={'black'}
+          color={props.iconColor}
         />
       </Badge>
     )
@@ -18,7 +18,7 @@ export default TabIcon = (props) => {
     <Icon
       name={props.iconName}
       size={20}
-      color={'black'}
+      color={props.iconColor}
     />
   )
 }
